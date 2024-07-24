@@ -126,13 +126,6 @@ validator(cp: PolicyId, mp: PolicyId) {
 
     let Transaction { inputs, outputs, reference_inputs, .. } = transaction
 
-    // expect Some(configIn) =
-    //   list.find(
-    //     reference_inputs,
-    //     fn(input) { list.has(value.policies(input.output.value), cp) },
-    //   )
-    // expect InlineDatum(datum) = configIn.output.datum
-    // expect cDatum: ConfigDatum = datum
     mathsIO(
       fn(input, output, mod) {
         expect InlineDatum(datum) = input.datum
@@ -157,13 +150,6 @@ validator(cp: PolicyId, mp: PolicyId) {
 
     let Transaction { inputs, outputs, reference_inputs, .. } = transaction
 
-    // expect Some(configIn) =
-    //   list.find(
-    //     reference_inputs,
-    //     fn(input) { list.has(value.policies(input.output.value), cp) },
-    //   )
-    // expect InlineDatum(datum) = configIn.output.datum
-    // expect cDatum: ConfigDatum = datum
     mathsIO(
       fn(input, output, mod) {
         expect InlineDatum(datum) = input.datum
@@ -188,13 +174,6 @@ validator(cp: PolicyId, mp: PolicyId) {
 
     let Transaction { inputs, outputs, reference_inputs, .. } = transaction
 
-    // expect Some(configIn) =
-    //   list.find(
-    //     reference_inputs,
-    //     fn(input) { list.has(value.policies(input.output.value), cp) },
-    //   )
-    // expect InlineDatum(datum) = configIn.output.datum
-    // expect cDatum: ConfigDatum = datum
     mathsIO(
       fn(input, output, mod) {
         expect InlineDatum(datum) = input.datum
@@ -219,13 +198,6 @@ validator(cp: PolicyId, mp: PolicyId) {
 
     let Transaction { inputs, outputs, reference_inputs, .. } = transaction
 
-    // expect Some(configIn) =
-    //   list.find(
-    //     reference_inputs,
-    //     fn(input) { list.has(value.policies(input.output.value), cp) },
-    //   )
-    // expect InlineDatum(datum) = configIn.output.datum
-    // expect cDatum: ConfigDatum = datum
     mathsIO(
       fn(input, output, mod) {
         expect InlineDatum(datum) = input.datum
